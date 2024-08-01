@@ -1,0 +1,98 @@
+/* Footer.css */
+
+.footer {
+    background-color: #050429;
+    color: #ffffff;
+    padding: 40px 20px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .footer-contact, .footer-links, .footer-consultation {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .footer h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .footer p, .footer li, .footer a {
+    font-size: 1em;
+    color: #ffffff;
+    line-height: 1.6;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-social-icons a {
+    margin-right: 15px;
+    font-size: 1.5em;
+    color: #ffffff;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-social-icons a:hover {
+    color: #ff6600;
+  }
+  
+  .footer-links ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-consultation form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-consultation input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .footer-consultation button {
+    background-color: #ff6600;
+    color: #050429;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .footer-consultation button:hover {
+    background-color: #ff5500;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-contact, .footer-links, .footer-consultation {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  }
+  

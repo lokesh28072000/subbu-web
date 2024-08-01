@@ -1,0 +1,176 @@
+/* Resume.css */
+
+.resume-section {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .resume-title {
+    font-size: 2.5em;
+    color: #050429;
+    margin-bottom: 40px;
+  }
+  
+  .resume-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .skills-container {
+    flex: 1;
+    margin-right: 20px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .skill-box {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .skill-box {
+    width: 80%;
+    height: auto;
+    margin-bottom: 10px;
+    border: 3px solid transparent;
+    animation: borderAnimation 3s infinite;
+  }
+  
+  .skill-title {
+    font-size: 1em;
+    color: orange;
+    margin: 0;
+    font-weight: 600;
+  }
+  
+  .skill-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .tabs-container {
+    flex: 1;
+    margin-left: 20px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .experience-list, .education-list {
+    text-align: left;
+  }
+  
+  .experience-item, .education-item {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .experience-item:hover, .education-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .experience-item h3, .education-item h3 {
+    margin: 0 0 10px 0;
+    color: #050429;
+  }
+  
+  .experience-item p, .education-item p {
+    margin: 0;
+    color: #555;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 992px) {
+    .resume-content {
+      flex-direction: column;
+    }
+  
+    .skills-container, .tabs-container {
+      margin: 0 0 20px 0;
+    }
+  }
+  
+  /* Custom Tabs Styling */
+  .nav-tabs .nav-link {
+    border: none;
+    color: #050429;
+    font-weight: 500;
+    padding: 10px 20px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .nav-tabs .nav-link.active {
+    background-color: #f5f5f5;
+    border-bottom: 3px solid orange;
+  }
+  
+  .nav-tabs .nav-link:hover {
+    color: orange;
+  }
+  
+  /* Animation for the border */
+  @keyframes borderAnimation {
+    0%, 100% {
+      border-color: transparent;
+    }
+    50% {
+      border-color: orange;
+    }
+  }
+  
+  /* Additional styling for left side */
+  .skills-container {
+    /* background-image: url('path_to_your_background_image.jpg'); */
+    background-size: cover;
+    background-position: center;
+    color: orange;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 15px;
+  }
+  
+  .skills-container h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: orange;
+    text-align: left;
+  }
+  
+  .skill-title {
+    font-size: 1em;
+    margin-top: 10px;
+    font-weight: 600;
+    color: black;
+  }
+  
+  .skill-box img {
+    border: 3px solid #ffffff;
+  }
+  
