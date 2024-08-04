@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/subbu-web/static/css/main.d1f337ac.css",
+    "main.css": "/subbu-web/static/css/main.7f6b424a.css",
     "main.js": "/subbu-web/static/js/main.f7a17400.js",
     "static/js/453.e2e08416.chunk.js": "/subbu-web/static/js/453.e2e08416.chunk.js",
     "static/media/home2.jpg": "/subbu-web/static/media/home2.25ab28cb1fa8debd97cc.jpg",
     "static/media/home1.jpg": "/subbu-web/static/media/home1.d9b937b1b1933fbe4c19.jpg",
     "index.html": "/subbu-web/index.html",
-    "main.d1f337ac.css.map": "/subbu-web/static/css/main.d1f337ac.css.map",
+    "main.7f6b424a.css.map": "/subbu-web/static/css/main.7f6b424a.css.map",
     "main.f7a17400.js.map": "/subbu-web/static/js/main.f7a17400.js.map",
     "453.e2e08416.chunk.js.map": "/subbu-web/static/js/453.e2e08416.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1f337ac.css",
+    "static/css/main.7f6b424a.css",
     "static/js/main.f7a17400.js"
   ]
 }
